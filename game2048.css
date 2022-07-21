@@ -1,0 +1,144 @@
+td {
+    border-style: solid;
+    border-color: red;
+    background-color:brown;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+}
+
+table {
+    border-style: groove;
+    border-color: blue;
+    border-width: 5px;
+    background-color: orange;
+    min-width: 400px;
+    min-height: 400px;
+    position: relative;
+}
+
+span {
+    font-size: 40px;
+}
+
+#centered {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#gameName {
+    background-color: gray;
+    border-color: black;
+    border-style: dashed;
+    color: yellow;
+    display: inline-block;
+    width:48%;
+    min-height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size:30px;
+}
+
+#resetButton {
+    width: 20%;
+    height:30px;
+    margin: 0 5%;
+    font-size:11px;
+    float:right;
+}
+
+#scoreScreen {
+    background-color: yellow;
+    border-color:black;
+    border-style: double;
+    color:black;
+    width: 48%;
+    line-height:44px;
+    /* min-height: 44px; */
+    font-size: 30px;
+    display: inline-block;
+}
+
+#victoryScreen {
+    background-color: rgba(255, 255, 0, 0.26);
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+#continueDiv {
+    background-color: #00FF34;
+    height: 100px;
+    width: 150px;
+    overflow:visible;
+    margin: 150px 125px;
+}
+
+.tile {
+    float:center;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.t2 {
+    background-color:white;
+    color:black;
+}
+
+.t4 {
+    background-color: beige;
+    color:rgb(85, 71, 71);
+}
+
+.t8 {
+    background-color: orange;
+    color: rgb(150, 0, 0);
+}
+
+.t16 {
+    background-color: #FF2400;
+    color:aliceblue;
+}
+
+.t32 {
+    background-color: #125F64;
+    color: #00FF34;
+}
+
+.t64 {
+    background-color: #bababa;
+    color: magenta;
+}
+
+.t128 {
+    background-color: #C003AA;
+    color: #8012BA;
+}
+
+.t256 {
+    background-color: #6ff6ff;
+    color: black;
+}
+
+.t512 {
+    background-color: #38ff52cb;
+    color:rgb(122, 22, 117);
+}
+
+.t1024 {
+    background-color:black;
+    color:white;
+}
+
+.t2048 {
+    background-color: gold;
+    color: #585858;
+}
+
+.t4096, .t8192, .t16384, .t32768, .t65536 {
+    background-color:silver;
+    color:#8012BA
+}
